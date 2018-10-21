@@ -1,28 +1,3 @@
-# Hello ExpressionEngine Conference 2018!
-
-Prior to coming to the workshop, here are a few steps to follow prior to the workshop.
-
-1. Install a fresh ExpressionEngine Core instance on your machine. 
-2. Ensure you have NPM installed on your machine. This command should return your version.
-
-```
-npm --version
-```
-
-2. Install the workshop addon by copying the /system/user/addons/workshop directory into the same directory in your ExpressionEngine Core installation
-3. Move the assets directory of this repo into your base EE Core directory.
-4. In the terminal window, locate your ExpressionEngine Core base directory and run these commands
-
-```
-cd assets
-npm install
-npm run dev
-```
-You should receive a success message, and you'll notice two new directories created. /assets/dist and /assets/node_modules
-
-5. Create a template group called home, and a template called index with this HTML.
-
-```
 <!DOCTYPE html>
 <html>
     <head>  
@@ -48,4 +23,3 @@ You should receive a success message, and you'll notice two new directories crea
         <script src="assets/dist/js/index.js"></script>
     </body>
 </html>
-```
