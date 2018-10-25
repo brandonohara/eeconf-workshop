@@ -1,0 +1,9 @@
+.vue-component-alert {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    min-width: 160px;
+    .alert {
+        margin-bottom: 0px;
+    }
+}

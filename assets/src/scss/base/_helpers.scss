@@ -1,20 +1,13 @@
-.padding { padding: $padding; }
+.padding {padding: $padding;}
 .padding-top { padding-top: $padding; }
 .padding-bottom { padding-bottom: $padding; }
 .padding-right { padding-right: $padding; }
 .padding-left { padding-left: $padding; }
 
-.margin { margin: $margin; }
+.margin {margin: $margin;}
 .margin-top { margin-top: $margin; }
 .margin-bottom { margin-bottom: $margin; }
 .margin-right { margin-right: $margin; }
 .margin-left { margin-left: $margin; }
 
 .cursor { cursor: pointer; }
-
-.display-block { display: block; }
-.display-inline-block { display: inline-block; }
-.display-inline { display: inline; }
-.display-flex { display: flex;}
-.flex-center { align-items: center; justify-content: center; }
-.flex { flex: 1; }
